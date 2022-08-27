@@ -1,0 +1,377 @@
+/* index */
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+*{
+    list-style: none;
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+body{
+    background: #ffffff;
+}
+a{
+    text-decoration: none;
+    color:white;
+}
+/* tables  */
+   
+.tabl{
+    /*margin-left:19%;*/
+    margin-bottom:25px;
+}
+
+table{
+    height:100%;
+    width:100%;
+    position: absolute;
+    top: 80px; 
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+
+.d-flex{
+    position:fixed;
+    left:40%;
+}
+
+.navbar {
+    height:80px;
+    margin-bottom:5px;
+    
+    
+}
+.nav-item0{
+    position:fixed;
+    font-family:"Comic Sans MS ","Comic Sans", cursive;
+    left:58%;
+    margin-top:14px;
+    color:#fff;
+    font-size:20px;
+        /*align-items:centre;*/
+
+}
+.nav-item1{
+    position:fixed;
+    left:75%;
+    font-size:20px;
+        margin-bottom:10px;
+
+}
+.nav-item2{
+    position:fixed;
+    left:82%;
+    font-size:20px;
+        margin-bottom:10px;
+
+    
+}
+.nav-item3{
+    position:fixed;
+    left:89%;
+    font-size:20px;
+        margin-bottom:10px;
+
+}
+
+.nav-item{
+    font-size: 20px;
+}
+
+.fixed-top{
+position: fixed;
+top: 0;
+right: 0;
+left: 0;
+/*z-index: 1030;*/
+}
+ 
+
+
+th {
+    background-color:white ;
+   padding:3px;
+      margin-left:10%;
+    font-size:15px;
+    height:20px;
+    text-align: center;
+  
+  /*position: fixed;*/
+
+
+    
+}
+td {
+    background-color: white;
+    border: 1px solid black;
+/* width: 50px;   */
+
+  /*font-size: 50px;*/
+    padding: 8px;
+    text-align: center; 
+          margin-left:10%;
+}
+
+.adminmain{
+    margin-left: 20%;
+    margin-top: 10%;
+    margin-bottom: 6%;
+}
+
+
+.username{
+background-color:white;
+
+}
+
+
+.fsign{
+    margin-left:5px;
+    color:blue;
+    
+  
+}
+
+.form-group{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    
+
+}
+.lable{
+color:grey;
+margin-top:10px;
+font-style: bold;
+margin-left:-28%;
+
+}
+.for{
+border: 1px solid black;
+border-radius: 4px;
+width: 400px;
+height:40px;
+padding: 5px;
+margin-top: 5px;
+margin-bottom: 10px;
+margin-left:-28%;
+
+}
+.upload{
+    width: 250px;
+    height:40px;
+    padding: 5px;
+}
+.butnn{
+    width: 400px;
+    height: 35px;
+    margin-left: -28%;
+    background-color: blue;
+    color: white;
+    border: 1px solid white;
+    padding:2px;
+    border-radius: 4px;
+    margin-bottom: 50px;
+    margin-top: 20px;
+}
+
+
+/* login */
+.admin{
+    color:white;
+    background-color: #FF8C8C;
+    border:1px solid black;
+    border-radius: 2rem;
+    margin-left: 20px;
+    padding: 4px;
+    
+}
+.main{
+    /*background: linear-gradient(45deg,  rgba(66, 183, 245,0.8) 0%,rgba(66, 245, 189,0.4) 100%);*/
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(226,255,225,1) 0%, rgba(0,133,255,0.6164966230632878) 100%);
+padding:3px;
+}
+.lmain{
+width:500px;
+height:400px;
+
+box-shadow: black 12px 12px 7px ;
+margin-left:35% ;
+margin-top: 10%;
+margin-bottom:10px;
+/*background-color:#cfd2cf;*/
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(255,255,255,1) 0%, rgba(0,150,255,0.5184574073770133) 100%);
+padding:1px;
+    
+}
+.form{
+    margin-left: 30%;
+}
+.heading{
+margin-left: 10%;
+margin-bottom: 5%;
+margin-top: 5%;
+/*font-family:"copperplate",fantasy;*/
+/*font-family: "Copperplate", Fantasy, Fantasy;*/
+
+color:#4285F4;
+font-weight: 700;
+font-size:24px;
+}
+/* admin articles */
+body{
+    background-color:#6E85B7;
+ }
+  .list{
+           
+            margin-top:30px;
+        }
+        
+/* articles */
+#editbtn{
+    background-color: blue;
+    color:white;
+    padding: 2px;
+    border-radius: 2rem;
+    width:65px;
+    margin: 3px 3px 3px 3px;
+   
+}
+
+#deletebtn{
+    background-color: red;
+    color:white;
+    padding: 2px;
+    border-radius: 2rem;
+}
+#downloadbtn{
+      background-color: green;
+    color:white;
+    padding: 4px;
+    border-radius: 2rem;
+    width:100px;
+}
+#cmntbtn{
+     background-color:#D885A3;
+    color:white;
+    padding: 2px;
+    border-radius: 2rem;
+    width:65px;
+    /*margin-left:90%;*/
+   
+}
+
+
+.list{
+   
+    margin-top:10px;
+}
+/* dashboard */
+.dashbody{
+    background-color:#BFFFF0;
+}
+.dashhead{
+    margin-top:2%;
+}
+
+
+.inner{
+    margin-left:35%;
+}
+.inner img{
+    width:400px;
+    height:200px;
+    margin-bottom:20px;
+    margin-top:15%;
+    margin-left: 80px;
+    
+}
+.submitlink{
+    border:1px solid black;
+    border-radius: 2rem;
+    padding: 2px;
+    background-color:blue;
+    color:white;
+    margin-top:150px;
+    margin-left:210px;
+    text-decoration:none;
+}
+.submitlinkk{
+    border:1px solid black;
+    border-radius: 2rem;
+    padding: 2px;
+    background-color:blue;
+    color:white;
+    margin-top:200px;
+    margin-left:210px;
+    text-decoration:none;
+}
+.link:hover{
+    color:blue;
+    background-color:white;
+}
+
+/*search input*/
+
+.search-container {
+     /*float:left;*/
+    /*margin-top: auto;*/
+    /*margin-right: 56%;*/
+    /*margin-left:90%;*/
+    margin:auto;
+    /*float:left;*/
+  }
+  .search-container button {
+    /* float:; */
+    padding: 6px 10px;
+     margin-top: -40px; 
+    /*margin-left: 110%;*/
+        margin:auto;
+
+    background: black;
+    color:white;
+    font-size: 17px;
+    border: none;
+    cursor: pointer;
+  }
+  .search-container button:hover {
+    color: red;
+  }
+  .search-container input[type=text] {
+    padding: 6px;
+    margin-top: 8px;
+    font-size: 17px;
+    border: none;
+    color: black;
+    border-radius: 3rem;
+  }
+  .field-icon {
+  float: right;
+  margin-left: -25px;
+  margin-top: -25px;
+  position: relative;
+  z-index: 2;
+  background-color:red;
+}
+#back{
+    width:100px;
+    margin:5px 5px 5px 5px;
+    color:white;
+    background-color: #72FFFF;
+    border-radius:1.5rem;
+}
+#uploadbtn{
+
+     width:150px;
+    margin:5px 5px 5px 5px;
+    color:white;
+    background-color: #9C9EFE;
+    border-radius:1.5rem;
+}
+
+
